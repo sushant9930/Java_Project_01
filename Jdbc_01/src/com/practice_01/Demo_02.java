@@ -18,6 +18,7 @@ public class Demo_02 {
 				System.out.println("connection established");
 				Statement st=con.createStatement();
 				ResultSet rs=st.executeQuery("select * from student");
+			
 				System.out.println("Id\tName\temail\tcountry\tpassword");
 				while(rs.next())
 				{
